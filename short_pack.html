@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6~8초 초간단 사례·비교표 쇼츠 3편 | AI 비서</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Malgun Gothic',sans-serif;background:#0a1226;color:#f8fafc;padding:20px 14px 60px}
+.wrap{max-width:1080px;margin:0 auto}
+h1{text-align:center;font-size:24px;margin-bottom:8px;color:#ffe600}
+.sub{text-align:center;color:#cbd5e1;font-size:14px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:#111d3a;border:1px solid #334155;border-radius:18px;padding:16px;display:flex;flex-direction:column;align-items:center}
+.badge{background:#ffe600;color:#0a1226;font-weight:800;font-size:13px;padding:5px 12px;border-radius:999px;margin-bottom:10px}
+h2{font-size:16px;line-height:1.4;text-align:center;margin-bottom:12px;min-height:44px}
+video{width:100%;max-width:270px;aspect-ratio:9/16;border-radius:14px;border:3px solid #ffe600;background:#000}
+.btns{display:flex;gap:8px;margin-top:12px;width:100%;justify-content:center}
+.btn{border:none;border-radius:10px;padding:10px 14px;font-weight:800;font-size:13px;cursor:pointer;text-decoration:none}
+.gold{background:#ffe600;color:#0a1226}
+.blue{background:#2563eb;color:#fff}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#10b981;color:#fff;padding:10px 18px;border-radius:999px;font-weight:800;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>6~8초 초간단 사례·비교표 쇼츠 3편</h1>
+  <p class="sub">1080×1920 세로형 · 첫 화면 1줄 후킹 → Before/After 비교표 → 댓글 '샘플' 유도</p>
+  <div class="grid"><div class="card">
+              <div class="badge">편1 · 미용실 · 1인샵 (7.75초)</div>
+              <h2>시술 중 전화 못 받아서 놓친 손님, 오늘 몇 명이에요?</h2>
+              <video controls playsinline poster="short_01_hairshop_thumb.png" src="short_01_hairshop.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="short_01_hairshop.mp4" download="short_01_hairshop.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/short_01_hairshop.mp4')">직통 링크 복사</button>
+              </div>
+            </div><div class="card">
+              <div class="badge">편2 · 병원 · 한의원 (7.75초)</div>
+              <h2>점심시간·진료 중 예약 전화 폭주, 직원 없이 해결한 방법</h2>
+              <video controls playsinline poster="short_02_clinic_thumb.png" src="short_02_clinic.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="short_02_clinic.mp4" download="short_02_clinic.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/short_02_clinic.mp4')">직통 링크 복사</button>
+              </div>
+            </div><div class="card">
+              <div class="badge">편3 · 동네 가게 · 공방 (7.8초)</div>
+              <h2>단골도 매번 물어보는 위치·가격, 1초 만에 말로 답하게 바꿨습니다</h2>
+              <video controls playsinline poster="short_03_localshop_thumb.png" src="short_03_localshop.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="short_03_localshop.mp4" download="short_03_localshop.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/short_03_localshop.mp4')">직통 링크 복사</button>
+              </div>
+            </div></div>
+</div>
+<div id="toast" class="toast">링크가 복사되었습니다!</div>
+<script>
+function copyText(t){
+  navigator.clipboard.writeText(t).then(()=>{
+    const el=document.getElementById('toast');
+    el.style.display='block';
+    setTimeout(()=>el.style.display='none',1600);
+  });
+}
+</script>
+</body>
+</html>
