@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>고효율 인스타 릴스 3편 (8~12초) | AI 비서</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Malgun Gothic',sans-serif;background:#0a1226;color:#f8fafc;padding:20px 14px 60px}
+.wrap{max-width:1080px;margin:0 auto}
+h1{text-align:center;font-size:24px;margin-bottom:8px;color:#ffe600}
+.sub{text-align:center;color:#cbd5e1;font-size:14px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:#111d3a;border:1px solid #334155;border-radius:18px;padding:16px;display:flex;flex-direction:column;align-items:center}
+.badge{background:#ffe600;color:#0a1226;font-weight:800;font-size:13px;padding:5px 12px;border-radius:999px;margin-bottom:10px}
+h2{font-size:16px;line-height:1.4;text-align:center;margin-bottom:12px;min-height:46px}
+video{width:100%;max-width:270px;aspect-ratio:9/16;border-radius:14px;border:3px solid #ffe600;background:#000}
+.btns{display:flex;gap:8px;margin-top:12px;width:100%;justify-content:center}
+.btn{border:none;border-radius:10px;padding:10px 14px;font-weight:800;font-size:13px;cursor:pointer;text-decoration:none}
+.gold{background:#ffe600;color:#0a1226}
+.blue{background:#2563eb;color:#fff}
+.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#10b981;color:#fff;padding:10px 18px;border-radius:999px;font-weight:800;display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>고효율 인스타 릴스 3편 (8~12초)</h1>
+  <p class="sub">1080×1920 세로형 · 첫 2초 질문 후킹 → 중앙 대형 자막 → 마지막 2초 실제 화면 &amp; 프로필 링크 안내</p>
+  <div class="grid"><div class="card">
+              <div class="badge">릴스1 · 9.79초 (8~12초 고효율 릴스)</div>
+              <h2>파마하다 전화 놓친 1인 미용실 vs 1초 음성 안내 붙인 뒤</h2>
+              <video controls playsinline poster="reels_01_yeoumeori_thumb.png" src="reels_01_yeoumeori.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="reels_01_yeoumeori.mp4" download="reels_01_yeoumeori.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/reels_01_yeoumeori.mp4')">직통 링크 복사</button>
+              </div>
+            </div><div class="card">
+              <div class="badge">릴스2 · 10.35초 (8~12초 고효율 릴스)</div>
+              <h2>동네 가게 홈페이지에 100만 원씩 쓰지 마세요 (손님이 보는 딱 3가지)</h2>
+              <video controls playsinline poster="reels_02_3things_thumb.png" src="reels_02_3things.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="reels_02_3things.mp4" download="reels_02_3things.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/reels_02_3things.mp4')">직통 링크 복사</button>
+              </div>
+            </div><div class="card">
+              <div class="badge">릴스3 · 11.17초 (8~12초 고효율 릴스)</div>
+              <h2>글씨 작아서 폰 못 보시는 부모님께 1초 만에 깔아드린 무료 화면 3가지 기능</h2>
+              <video controls playsinline poster="reels_03_parents_signal_thumb.png" src="reels_03_parents_signal.mp4"></video>
+              <div class="btns">
+                <a class="btn gold" href="reels_03_parents_signal.mp4" download="reels_03_parents_signal.mp4">MP4 다운로드</a>
+                <button class="btn blue" onclick="copyText('https://a90915719-hue.github.io/ai-shorts-1/reels_03_parents_signal.mp4')">직통 링크 복사</button>
+              </div>
+            </div></div>
+</div>
+<div id="toast" class="toast">링크가 복사되었습니다!</div>
+<script>
+function copyText(t){
+  navigator.clipboard.writeText(t).then(()=>{
+    const el=document.getElementById('toast');
+    el.style.display='block';
+    setTimeout(()=>el.style.display='none',1600);
+  });
+}
+</script>
+</body>
+</html>
