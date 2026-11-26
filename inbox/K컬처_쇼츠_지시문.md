@@ -69,6 +69,19 @@
 
 ---
 
+## 2-1. BTS 7인 멤버 릴레이 시리즈 (매일 1명씩 돌아가며 아미 클릭 유도!)
+> **사용자 특별 지시**: 정국·뷔 1~2명만 쓰지 말고, 전 세계 아미들이 각자 최애 멤버 영상에 반응하도록 **BTS 7명(RM · 진 · 슈가 · 제이홉 · 지민 · 뷔 · 정국)**을 매일 한 명씩 돌아가며 제작할 것! (영어 제목/태그에 해당 멤버 영문명 필수 포함)
+
+- **Day 1 · 정국(Jungkook)**: `Jungkook's Midnight Korean Ramen Hack` (불그리·들기름 막국수) `#jungkook #bts #kfood`
+- **Day 2 · 뷔(V / Taehyung)**: `V's Favorite Korean Convenience Store Snack` (편의점 최애 간식·짜장면) `#taehyung #btsv #bts`
+- **Day 3 · 지민(Jimin)**: `Jimin's Comfort Food in Seoul (Tteokbokki)` (매운 떡볶이·어묵 거리 음식) `#jimin #bts #tteokbokki`
+- **Day 4 · 진(Jin)**: `Why Jin Loves Korean Mul-Hoe & Ramen` (물회·김치찌개·전통 한식) `#jin #seokjin #bts`
+- **Day 5 · 슈가(Suga / Agust D)**: `Suga's Secret Late-Night Korean BBQ Spot` (대구 막창·한우 고깃집 문화) `#suga #agustd #bts`
+- **Day 6 · 제이홉(J-Hope)**: `J-Hope's Crispy Korean Fried Chicken & Sprite` (치킨·콜라·광주 떡갈비) `#jhope #bts #koreanfriedchicken`
+- **Day 7 · RM (남준)**: `RM's Peaceful Seoul Museum & Hanok Cafe Tour` (국립중앙박물관·한옥 찻집·전통 다과) `#rm #namjoon #seoul`
+
+---
+
 ## 3. 제출 규칙 (1·2호기 공통)
 - 위 5편 중 **1호기는 EP01·EP02·EP03**, **2호기는 EP04·EP05**를 맡거나, 빠른 쪽이 먼저 만든 뒤 아래 경로로 푸시해 주세요:
   - `inbox/outbox_1/2026-11-26_kculture_01_convenience_store/` (또는 `outbox_2/`)
