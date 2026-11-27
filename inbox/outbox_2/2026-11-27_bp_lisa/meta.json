@@ -17,6 +17,6 @@
   "resolution": "1080x1920",
   "fps": 30,
   "audio_rms": "-15.5 dBFS",
-  "ai_generated_visuals": false,
+  "ai_generated_visuals": true,
   "voice": "en-US-ChristopherNeural"
 }
